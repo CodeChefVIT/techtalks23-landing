@@ -81,7 +81,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Cook-off 8.0</title>
+        <title>Tech Talks - 4.0</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
 
