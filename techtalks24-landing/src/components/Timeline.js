@@ -2,11 +2,11 @@ import { color, motion, easeInOut } from "framer-motion";
 
 const Timeline = () => {
   const events = [
-    { time: "09:00 AM", event: "Event Starts" },
-    { time: "10:00 AM", event: "Placeholder" },
-    { time: "11:00 AM", event: "Placeholder" },
-    { time: "12:00 PM", event: "Placeholder" },
-    { time: "02:00 PM", event: "Event Commences" },
+    { time: "SHIV", event: "PEON @GOOGLE" },
+    { time: "OMANSH", event: "CEO GOOGLE" },
+    { time: "ADITYA", event: "CEO APPLE" },
+    { time: "GAURAV", event: "CEO VIVO" },
+    { time: "SOUVIK", event: "CEO MICROSOFT" },
   ];
   console.log(100 / events.length);
   return (
@@ -15,7 +15,7 @@ const Timeline = () => {
         id="proxima"
         className="text-[16px] md:text-[12px] font-normal tracking-[7px] mx-[13%] md:mx-[10%] text-grey pt-2"
       >
-        TIMELINE
+        SPEAKERS
       </div>
       <div id="proximaBold" className="flex flex-col h-[85%] mt-10">
         {events.map((e, index) => {

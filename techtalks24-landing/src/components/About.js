@@ -18,11 +18,11 @@ const About = () => {
           id="proxima"
           className="text-justify text-4xl tracking-wide font-bold leading-relaxed lg:text-2xl lg:tracking-wide lg:font-semibold sm:text-2xl sm:tracking-wide sm:font-semibold"
         >
-          Cook off is <span className="text-orange">CodeChef VIT</span>&apos;s
-          flagship competitive coding event that tests the coding skills of tech
-          participants to develop their competitive coding skills and test their
-          abilities. Cook Off 7.0 will be the seventh edition through which we
-          hope to broaden the horizons of the participants.
+          Tech Talk is <span className="text-orange">CodeChef VIT</span>’s discussion session where speakers from
+          various technical industries are willing to interact with the tech
+          enthusiasts and share their experiences working in the industry. The
+          event would give the inside view of the tech industry and speakers
+          will give suggestions to the participants
         </p>
       </div>
     </div>

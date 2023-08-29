@@ -7,7 +7,7 @@ import About from "@/components/About";
 import Timeline from "@/components/Timeline";
 import Countdown from "@/components/Countdown";
 import Banner from "@/components/Banner";
-import Prizes from "@/components/Prizes";
+//import Prizes from "@/components/Prizes";
 import Faqs from "@/components/Faqs";
 import RegisterNow from "@/components/RegisterNow";
 import OtherEvents from "@/components/OtherEvents";
@@ -22,7 +22,7 @@ import WelcomeMask from "@/components/WelcomeMask";
 import CountdownMask from "@/components/CountdownMask";
 import BannerMask from "@/components/BannerMask";
 import RegisterNowMask from "@/components/RegisterNowMask";
-import PrizesMask from "@/components/PrizesMask";
+//import PrizesMask from "@/components/PrizesMask";
 import TimelineMask from "@/components/TimelineMask";
 import OtherEventsMask from "@/components/OtherEventsMask";
 import FaqsMask from "@/components/FaqsMask";
@@ -62,14 +62,14 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
           <FixedNav />
-      <main className="h-[980vh] w-[100vw] relative cursor-default overflow-x-hidden">
+      <main className="h-[780vh] w-[100vw] relative cursor-default overflow-x-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
           <Timeline />
           <Banner />
           <RegisterNow />
-          <Prizes />
+          
           <Countdown />
           <OtherEvents />
           <Faqs />
