@@ -11,7 +11,7 @@ const Welcome = () => {
   console.log("isMid" + isMid);
 
   return (
-    <div className="h-[100vh] w-[100vw] cursor-default flex flex-col justify-center">
+    <div className="h-[100vh] w-[100vw] cursor-default flex flex-col justify-center" id="welcome">
       {isMid && <TitleSVGMobile />}
       {!isMid && <TitleSVG/>}
       <div className="flex justify-center z-10">

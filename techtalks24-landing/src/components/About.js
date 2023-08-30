@@ -6,7 +6,7 @@ import useMousePosition from "@/utils/useMousePosition";
 
 const About = () => {
   return (
-    <div className="h-[100vh] w-[100vw] relative cursor-default ">
+    <div className="h-[100vh] w-[100vw] relative cursor-default " id="about">
       <div
         id="proxima"
         className="uppercase text-[16px] md:text-[12px] mx-[13%] md:mx-[10%] text-[#B7AB98] mt-32 mb-10 tracking-[7px]"

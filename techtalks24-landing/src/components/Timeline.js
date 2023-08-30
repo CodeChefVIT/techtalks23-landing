@@ -10,7 +10,7 @@ const Timeline = () => {
   ];
   console.log(100 / events.length);
   return (
-    <div className="h-[100vh] w-[100vw] relative">
+    <div className="h-[100vh] w-[100vw] relative" id="speakers">
       <div
         id="proxima"
         className="text-[16px] md:text-[12px] font-normal tracking-[7px] mx-[13%] md:mx-[10%] text-grey pt-2"
