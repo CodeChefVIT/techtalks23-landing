@@ -29,13 +29,16 @@ const AboutMask = () => {
       >
         <p
           id="proxima"
-          className="text-justify text-4xl tracking-wide font-bold leading-relaxed lg:text-2xl lg:tracking-wide lg:font-semibold sm:text-2xl sm:tracking-wide sm:font-semibold"
+          className="text-justify text-[1.8rem] tracking-wide font-bold leading-relaxed lg:text-2xl lg:tracking-wide lg:font-semibold sm:text-2xl sm:tracking-wide sm:font-semibold"
         >
-          Tech Talk is <span className="text-white">CodeChef VIT</span>’s discussion session where speakers from
-          various technical industries are willing to interact with the tech
-          enthusiasts and share their experiences working in the industry. The
-          event would give the inside view of the tech industry and speakers
-          will give suggestions to the participants
+          Feeling like a <span className="text-white">tech novice</span>? No sweat! This session has got your back.
+          Craving some guidance to turbocharge your tech prowess? Look no
+          further! Need a touch of professional finesse to amp up your skills?
+          We've got you covered! Welcome to the ultimate TechTalks experience,
+          designed to unravel the mysteries of the ever-evolving tech universe.
+          All you need to do is register and show-up. Leave the rest to us!
+          <span className="text-white">“Allow yourself to be a beginner. No one starts off being excellent.”-</span>
+          Wendy Flynn
         </p>
       </div>
     </div>
