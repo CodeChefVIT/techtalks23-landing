@@ -4,6 +4,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import TitleSVG from "./TitleSVG";
 import TitleSVGMobile from "./TitleSVGMobile";
 import Link from "next/link";
+import ttlogo from '../assets/ttlogo.svg'
 
 const Welcome = () => {
   const isMid = useMediaQuery("(max-width:1012px)");
@@ -12,7 +13,7 @@ const Welcome = () => {
   return (
     <div className="h-[100vh] w-[100vw] cursor-default flex flex-col justify-center">
       {isMid && <TitleSVGMobile />}
-      {!isMid && <TitleSVG />}
+      {!isMid && <TitleSVG/>}
       <div className="flex justify-center z-10">
         <Link href={"/landing"}>
           <motion.button
