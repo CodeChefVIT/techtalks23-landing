@@ -2,11 +2,11 @@ import { color, motion, easeInOut } from "framer-motion";
 
 const Timeline = () => {
   const events = [
-    { time: "SHIV", event: "PEON @GOOGLE" },
-    { time: "OMANSH", event: "CEO GOOGLE" },
-    { time: "ADITYA", event: "CEO APPLE" },
-    { time: "GAURAV", event: "CEO VIVO" },
-    { time: "SOUVIK", event: "CEO MICROSOFT" },
+    { time: "TO BE ANNOUNCED!", event: "-" },
+    { time: "TO BE ANNOUNCED!", event: "-" },
+    { time: "TO BE ANNOUNCED!", event: "-" },
+    { time: "TO BE ANNOUNCED!", event: "-" },
+    { time: "TO BE ANNOUNCED!", event: "-" },
   ];
   console.log(100 / events.length);
   return (

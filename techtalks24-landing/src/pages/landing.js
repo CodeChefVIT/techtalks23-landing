@@ -89,8 +89,9 @@ export default function Home() {
             <WelcomeMask />
             <AboutMask />
             <FillerMask />
-            <FillerMask2 />
+            
             <CountdownMask />
+            <FillerMask2 />
             <FillerMask2 />
             <FillerMask2 />
           </motion.div>
