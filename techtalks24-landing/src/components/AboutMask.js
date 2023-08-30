@@ -34,7 +34,7 @@ const AboutMask = () => {
           Feeling like a <span className="text-white">tech novice</span>? No sweat! This session has got your back.
           Craving some guidance to turbocharge your tech prowess? Look no
           further! Need a touch of professional finesse to amp up your skills?
-          We've got you covered! Welcome to the ultimate TechTalks experience,
+          We&apos;ve got you covered! Welcome to the ultimate TechTalks experience,
           designed to unravel the mysteries of the ever-evolving tech universe.
           All you need to do is register and show-up. Leave the rest to us!
           <span className="text-white">“Allow yourself to be a beginner. No one starts off being excellent.”-</span>
