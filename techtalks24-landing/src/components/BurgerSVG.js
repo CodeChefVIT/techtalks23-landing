@@ -11,7 +11,7 @@ const BurgerSVG = ({ setIsToggled }) => {
         e.stopPropagation();
       }}
     >
-      <circle cx="308.5" cy="308.5" r="308.5" fill="#EB5939" />
+      <circle cx="308.5" cy="308.5" r="308.5" fill="#552BFF" />
       <path
         d="M164 195H453"
         stroke="black"
