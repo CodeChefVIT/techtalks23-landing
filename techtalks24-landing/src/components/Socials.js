@@ -49,7 +49,7 @@ const Socials = () => {
           <TraingleSVG />
           <Link href={"/landing"}>
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
-              Tech Talks 4.0
+              COOK OFF 8.0
             </p>
           </Link>
         </div>
