@@ -37,7 +37,7 @@ const Countdown = () => {
     const interval = setInterval(calculateCountdown, 1000);
 
     return () => clearInterval(interval);
-  });
+  },[]);
 
   return (
     <div className="h-[90vh] md:h-[70vh] w-[80vw] relative">

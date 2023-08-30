@@ -62,7 +62,7 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
           <FixedNav />
-      <main className="h-[980vh] w-[100vw] relative cursor-default overflow-x-hidden">
+      <main className="h-[900vh] w-[100vw] relative cursor-default overflow-x-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
@@ -93,9 +93,9 @@ export default function Home() {
             
             <CountdownMask />
             
-            <FillerMask2 />
-            <FillerMask2 />
-            <FillerMask2 />
+            {/* <FillerMask2 /> */}
+            {/* <FillerMask2 /> */}
+            {/* <FillerMask2 /> */}
           </motion.div>
         )}
       </main>
