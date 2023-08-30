@@ -67,7 +67,7 @@ export default function Home() {
           <Welcome />
           <About />
           <Timeline />
-          <Banner />
+          {/* <Banner /> */}
           <RegisterNow />
           
           <Countdown />
@@ -88,9 +88,11 @@ export default function Home() {
           >
             <WelcomeMask />
             <AboutMask />
+            {/* <FillerMask /> */}
             <FillerMask />
             
             <CountdownMask />
+            
             <FillerMask2 />
             <FillerMask2 />
             <FillerMask2 />
