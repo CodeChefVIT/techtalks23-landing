@@ -64,7 +64,7 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
       <FixedNav />
-      <main className="h-[900vh] sm:h-[750vh] w-[100vw] relative cursor-default overflow-x-hidden  overflow-y-hidden">
+      <main className="h-[900vh] sm:h-[700vh] md:h-[750vh] w-[100vw] relative cursor-default overflow-x-hidden  overflow-y-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
@@ -77,7 +77,7 @@ export default function Home() {
           <Faqs />
 
          
-
+8
           <div className="bottom-0">
             <Socials />
           </div>
