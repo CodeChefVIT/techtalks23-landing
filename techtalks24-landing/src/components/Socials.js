@@ -8,7 +8,7 @@ import linkedin from "../../public/linkedin.svg";
 import githubmark from "../../public/githubmark.svg";
 import twitter from "../../public/twitter.svg";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import Link from "next/link";
+// import Link from "next/link";
 const Socials = () => {
   const isMobile = useMediaQuery("(max-width:639px)");
 
@@ -47,19 +47,19 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href="https://cookoff.codechefvit.com" target="__blank" rel="noopener noreferrer" >
+          <a href="https://cookoff.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               COOK OFF 8.0
             </p>
-          </Link>
+          </a>
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href="https://clueminati.codechefvit.com" target="__blank" rel="noopener noreferrer" >
+          <a href="https://clueminati.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               Clueminati
             </p>
-          </Link>
+          </a>
         </div>
 
         {isMobile && (
