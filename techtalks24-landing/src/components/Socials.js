@@ -26,8 +26,8 @@ const Socials = () => {
         <div className="text-lg font-normal tracking-[6px] mdl:tracking-[2px] text-grey ">
           CODECHEF VIT
         </div>
-        <div className="text-lg font-normal tracking-[7px] mdl:tracking-[2px] text-grey ">
-          COOKOFF 8.0
+        <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
+          TECHTALKS 4.0
         </div>
         <div className="z-10">
           <Link to="welcome" spy={true} smooth={true} offset={-5}>

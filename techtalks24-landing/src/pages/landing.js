@@ -33,6 +33,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import Head from "next/head";
 import mic from "../assets/mic.svg";
 import Filler from '../components/Filler'
+import RealTimeline from "@/components/RealTimeline";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -64,11 +65,12 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
       <FixedNav />
-      <main className="h-[900vh] sm:h-[700vh] md:h-[750vh] w-[100vw] relative cursor-default overflow-x-hidden  overflow-y-hidden">
+      <main className="h-[980vh] sm:h-[800vh] md:h-[850vh] w-[100vw] relative cursor-default overflow-x-hidden  overflow-y-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
           <Timeline />
+          <RealTimeline/>
           {/* <Banner /> */}
           <RegisterNow />
 
@@ -97,6 +99,7 @@ export default function Home() {
             <AboutMask />
             {/* <FillerMask /> */}
             <FillerMask />
+            <TimelineMask/>
 
             <CountdownMask />
 
