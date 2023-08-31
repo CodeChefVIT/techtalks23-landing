@@ -37,6 +37,7 @@ const AboutMask = () => {
           We&apos;ve got you covered! Welcome to the ultimate TechTalks experience,
           designed to unravel the mysteries of the ever-evolving tech universe.
           All you need to do is register and show-up. Leave the rest to us!
+          <br/>
           <span className="text-white">“Allow yourself to be a beginner. No one starts off being excellent.”-</span>
           Wendy Flynn
         </p>

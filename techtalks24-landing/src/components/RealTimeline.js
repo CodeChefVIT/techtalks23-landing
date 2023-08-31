@@ -8,7 +8,7 @@ const RealTimeline = () => {
     { time: "5PM-6PM", event: "TO BE ANNOUNCED!" },
     { time: "6PM-7PM", event: "TO BE ANNOUNCED!" },
   ];
-  console.log(100 / events.length);
+  // console.log(100 / events.length);
   return (
     <div className="h-[100vh] w-[100vw] relative" id="timeline">
       <div

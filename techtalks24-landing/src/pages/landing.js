@@ -77,9 +77,6 @@ export default function Home() {
           <Countdown />
           <OtherEvents />
           <Faqs />
-
-         
-8
           <div className="bottom-0">
             <Socials />
           </div>

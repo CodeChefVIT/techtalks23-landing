@@ -8,7 +8,7 @@ const Timeline = () => {
     { time: "TO BE ANNOUNCED!", event: "-" },
     { time: "TO BE ANNOUNCED!", event: "-" },
   ];
-  console.log(100 / events.length);
+  // console.log(100 / events.length);
   return (
     <div className="h-[100vh] w-[100vw] relative" id="speakers">
       <div

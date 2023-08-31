@@ -29,7 +29,7 @@ const Socials = () => {
         <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
           TECHTALKS 4.0
         </div>
-        <div className="z-10">
+        {/* <div className="z-10">
           <Link to="welcome" spy={true} smooth={true} offset={-5}>
             <motion.button
               className="rounded-[4px] w-[200px] py-2 px-12 bg-orange sm:bg-orange text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
@@ -39,7 +39,7 @@ const Socials = () => {
               Register
             </motion.button>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col py-20 lg:py-2">
         <div className="text-lg font-normal tracking-[7px] text-grey mdl:tracking-[2px]">
@@ -47,7 +47,7 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href={"/landing"}>
+          <Link href="https://cookoff.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               COOK OFF 8.0
             </p>
@@ -55,7 +55,7 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href={"/landing"}>
+          <Link href="https://clueminati.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               ClueMinati
             </p>
@@ -64,16 +64,16 @@ const Socials = () => {
 
         {isMobile && (
           <div className="flex items-center gap-3 mt-[5vh]">
-            <a href="https://github.com/CodeChefVIT">
+            <a href="https://github.com/CodeChefVIT"  target="__blank" rel="noopener noreferrer">
               <Image src={githubmark} alt="img" className="h-10 w-10" />
             </a>
-            <a href="https://www.instagram.com/codechefvit/T">
+            <a href="https://www.instagram.com/codechefvit/"  target="__blank" rel="noopener noreferrer">
               <Image src={insta} alt="img" className="h-10 w-10" />
             </a>
-            <a href="https://twitter.com/codechefvit">
+            <a href="https://twitter.com/codechefvit"  target="__blank" rel="noopener noreferrer">
               <Image src={twitter} alt="img" className="h-10 w-10" />
             </a>
-            <a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/">
+            <a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"  target="__blank" rel="noopener noreferrer">
               <Image src={linkedin} alt="img" className="h-10 w-10" />
             </a>
           </div>
@@ -87,7 +87,7 @@ const Socials = () => {
           <TraingleSVG />
           <Link to="welcome" spy={true} smooth={true} offset={-5}>
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
-              Portal
+              About
             </p>
           </Link>
         </div>
@@ -95,7 +95,7 @@ const Socials = () => {
           <TraingleSVG />
           <Link to="about" spy={true} smooth={true} offset={-5}>
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
-              About
+              Speakers
             </p>
           </Link>
         </div>
