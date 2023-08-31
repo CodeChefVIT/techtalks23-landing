@@ -19,7 +19,7 @@ const OtherEvents = () => {
       >
         other events
       </div>
-      <div className="flex w-full h-full justify-evenly items-center">
+      <div className="flex w-full h-full justify-evenly items-center sm:flex-col">
         <Link
           href="https://cookoff.codechefvit.com"
           target="__blank"
