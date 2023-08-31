@@ -86,7 +86,7 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link to="welcome" spy={true} smooth={true} offset={-5}>
+          <Link to="about" spy={true} smooth={true} offset={-5}>
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               About
             </p>
@@ -94,7 +94,7 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link to="about" spy={true} smooth={true} offset={-5}>
+          <Link to="speakers" spy={true} smooth={true} offset={-5}>
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               Speakers
             </p>
