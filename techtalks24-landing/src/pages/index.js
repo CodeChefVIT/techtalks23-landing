@@ -76,7 +76,7 @@ const Index = () => {
       window.removeEventListener("click", clicked);
     };
   }, []);
-  console.log(hasClicked);
+  // console.log(hasClicked);
 
   return (
     <>

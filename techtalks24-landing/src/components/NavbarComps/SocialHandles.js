@@ -11,7 +11,7 @@ const SocialHandles = () => {
       <a   target="_blank"  rel="noopener"  href="https://github.com/CodeChefVIT">
         <Image src={githubmark} alt="img" />
       </a>
-      <a  target="_blank"  rel="noopener"  href="https://instagram.com/codechefvit?igshid=MzRlODBiNWFlZA==">
+      <a  target="_blank"  rel="noopener"  href="https://instagram.com/codechefvit">
         <Image src={insta} alt="img" />
       </a>
       <a   target="_blank"  rel="noopener" href="https://twitter.com/codechefvit">
