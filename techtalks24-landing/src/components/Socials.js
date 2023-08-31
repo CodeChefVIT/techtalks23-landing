@@ -8,6 +8,7 @@ import linkedin from "../../public/linkedin.svg";
 import githubmark from "../../public/githubmark.svg";
 import twitter from "../../public/twitter.svg";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import { Link } from "react-scroll";
 // import Link from "next/link";
 const Socials = () => {
   const isMobile = useMediaQuery("(max-width:639px)");
