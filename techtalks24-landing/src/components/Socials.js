@@ -1,6 +1,5 @@
 import React from "react";
 import ChefCapSVG from "./ChefCapSVG";
-import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import TraingleSVG from "./TraingleSVG";
 import Image from "next/image";
@@ -9,6 +8,7 @@ import linkedin from "../../public/linkedin.svg";
 import githubmark from "../../public/githubmark.svg";
 import twitter from "../../public/twitter.svg";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import Link from "next/link";
 const Socials = () => {
   const isMobile = useMediaQuery("(max-width:639px)");
 
@@ -57,7 +57,7 @@ const Socials = () => {
           <TraingleSVG />
           <Link href="https://clueminati.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
-              ClueMinati
+              Clueminati
             </p>
           </Link>
         </div>
