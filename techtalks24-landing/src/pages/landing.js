@@ -65,14 +65,14 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
       <FixedNav />
-      <main className="h-[1000vh] sm:h-[820vh] md:h-[850vh] w-[100vw] relative cursor-default overflow-x-hidden  overflow-y-hidden">
+      <main className="h-[900vh] sm:h-[820vh] md:h-[850vh] w-[100vw] relative cursor-default overflow-x-hidden ">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
           <Timeline />
           <RealTimeline/>
           {/* <Banner /> */}
-          <RegisterNow />
+          {/* <RegisterNow /> */}
 
           <Countdown />
           <OtherEvents />
@@ -98,8 +98,12 @@ export default function Home() {
             <WelcomeMask />
             <AboutMask />
             {/* <FillerMask /> */}
-            <FillerMask />
+            <FillerMask/>
+            
+            <FillerMask2 />
+           
             <TimelineMask/>
+            
 
             <CountdownMask />
 
