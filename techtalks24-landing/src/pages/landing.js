@@ -32,7 +32,7 @@ import FillerMask2 from "@/components/FillerMask2";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import Head from "next/head";
 import mic from "../assets/mic.svg";
-import Filler from '../components/Filler'
+import Filler from "../components/Filler";
 import RealTimeline from "@/components/RealTimeline";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -70,16 +70,15 @@ export default function Home() {
           <Welcome />
           <About />
           <Timeline />
-          <RealTimeline/>
+          <RealTimeline />
           {/* <Banner /> */}
           {/* <RegisterNow /> */}
 
           <Countdown />
           <OtherEvents />
           <Faqs />
-          <div className="bottom-0">
-            <Socials />
-          </div>
+
+          <Socials />
         </div>
         {isNotMobile && (
           <motion.div
@@ -95,12 +94,11 @@ export default function Home() {
             <WelcomeMask />
             <AboutMask />
             {/* <FillerMask /> */}
-            <FillerMask/>
-            
+            <FillerMask />
+
             <FillerMask2 />
-           
-            <TimelineMask/>
-            
+
+            <TimelineMask />
 
             <CountdownMask />
 
