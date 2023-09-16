@@ -2,11 +2,14 @@ import { color, motion, easeInOut } from "framer-motion";
 
 const RealTimeline = () => {
   const events = [
-    { time: "2PM-3PM", event: "TO BE ANNOUNCED!" },
-    { time: "3PM-4PM", event: "TO BE ANNOUNCED!" },
-    { time: "4PM-5PM", event: "TO BE ANNOUNCED!" },
-    { time: "5PM-6PM", event: "TO BE ANNOUNCED!" },
-    { time: "6PM-7PM", event: "TO BE ANNOUNCED!" },
+    { time: "2PM", event: "Reporting" },
+    { time: "2:30PM-3:45PM", event: "Panel 1  " },
+    { time: "3:45PM-4:00PM", event: "Activity 1 " },
+    { time: "4:00PM-5:15PM", event: "Panel 2  " },
+    { time: "5:15PM-5:30PM", event: "Activity 2 " },
+
+    { time: "5:30PM-6:45PM", event: "Panel 3  " },
+
   ];
   // console.log(100 / events.length);
   return (
@@ -24,7 +27,7 @@ const RealTimeline = () => {
               key={index}
               // className={`flex ml-40 h-[20%]`}
               className={`flex justify-between mx-auto sm:ml-2 sm:gap-[20vw] xs:text-xl h-[${
-                100 / events.length
+                100 / 5
               }%] border-b-[2px] border-neutral-600 w-[75%] md:w-full gap-44 text-grey text-3xl font-semibold z-20 px-10`}
               whileHover={{
                 backgroundColor: "#552BFF",
@@ -56,4 +59,4 @@ const RealTimeline = () => {
   );
 };
 
-export default RealTimeline;
+export default RealTimeline;
