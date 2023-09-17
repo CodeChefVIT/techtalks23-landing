@@ -22,7 +22,7 @@ const Timeline = () => {
       >
         SPEAKERS:
         <span className="font-light tracking-wide">
-          We'll be revealing the speakers in stages! Keep a lookout!
+          We&apos;ll be revealing the speakers in stages! Keep a lookout!
         </span>
       </div>
       <div id="proximaBold" className="flex flex-col h-[85%] mt-10">
