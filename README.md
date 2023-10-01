@@ -38,13 +38,13 @@
 ## 🖼 Screenshots
 
 <p align="center">
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/v496chV/Screenshot-2023-10-01-135215.png" alt="SS1"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/tz0mrcv/Screenshot-2023-10-01-135245.png" alt="SS2"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/NZqMQxt/Screenshot-2023-10-01-135311.png" alt="SS3"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/vzdMq17/Screenshot-2023-10-01-135326.png" alt="SS4"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/jrKLMR8/Screenshot-2023-10-01-135422.png" alt="SS5"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/C21YbSt/Screenshot-2023-10-01-135439.png" alt="SS6"/>
-<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:900px" src="https://i.ibb.co/CbbwSKn/Screenshot-2023-10-01-135454.png" alt="SS7"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/v496chV/Screenshot-2023-10-01-135215.png" alt="SS1"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/tz0mrcv/Screenshot-2023-10-01-135245.png" alt="SS2"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/NZqMQxt/Screenshot-2023-10-01-135311.png" alt="SS3"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/vzdMq17/Screenshot-2023-10-01-135326.png" alt="SS4"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/jrKLMR8/Screenshot-2023-10-01-135422.png" alt="SS5"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/C21YbSt/Screenshot-2023-10-01-135439.png" alt="SS6"/>
+<img style="box-shadow: 0px 5px 20px grey; border-radius: 8px; width:1000px" src="https://i.ibb.co/CbbwSKn/Screenshot-2023-10-01-135454.png" alt="SS7"/>
 
   <!-- Add other images in a similar way -->
 </p>
