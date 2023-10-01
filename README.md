@@ -4,17 +4,17 @@
   </a>
 </p>
 <br/>
-<h1 align="center"> Clueminati Landing Page </h1>
+<h1 align="center"> Techtalks 4.0 Landing Page </h1>
 
 <br/>
 
-> The Official Website for Clueminati - An Event conducted by CodeChef-VIT.
+> The Official Website for Techtalks 4.0 - An Event conducted by CodeChef-VIT.
 
 ---
 
 <br/>
 
-[![Website](https://img.shields.io/badge/Visit%20Website-Clueminati-000000?style=for-the-badge&logoColor=white)](https://clueminati.codechefvit.com/)
+[![Website](https://img.shields.io/badge/Visit%20Website-Techtalks-000000?style=for-the-badge&logoColor=white)](https://techtalks.codechefvit.com/)
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@
 - [CookOff 8.0 Landing Repo](https://github.com/CodeChefVIT/cookoff23-landing)
 - [CookOff 8.0 Portal Repo](https://github.com/CodeChefVIT/cookoff23-portal)
 - [CookOff 8.0 Backend Repo](https://github.com/CodeChefVIT/cookoff-backend)
-- [TechTalks 4.0 Landing Repo](https://github.com/CodeChefVIT/techtalks23-landing)
+- [Clueminati 4.0 Landing Repo](https://github.com/CodeChefVIT/clueminati23-landing)
 
 ## ⚙ Tech Stack
 
@@ -71,6 +71,18 @@ $ npm run dev
 
 <table>
 <tr align="center">
+	<td>
+	<p align="center">
+		<img src = "https://avatars.githubusercontent.com/Shivd131" width="150" height="150" alt="pic" style="border: 2px solid grey; width: 170px; height: 170px">
+	</p>
+	<p style="font-size:17px; font-weight:600;">Shiv Deshpande</p>
+	<p align="center">
+		<a href = "https://github.com/Shivd131"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36" alt="GitHub"/></a>
+		<a href = "https://www.linkedin.com/in/shiv-deshpande-951b9a23b">
+			<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36" alt="LinkedIn"/>
+		</a>
+	</p>
+</td>
 <td> 
 	<p align="center">
 <img src="https://avatars.githubusercontent.com/Gaurav-Choudhary2113" alt="" style="border: 2px solid grey; width: 170px">
@@ -85,18 +97,7 @@ $ npm run dev
 		</a>
 	</p>
 </td>
-<td>
-	<p align="center">
-		<img src = "https://avatars.githubusercontent.com/Shivd131" width="150" height="150" alt="pic" style="border: 2px solid grey; width: 170px; height: 170px">
-	</p>
-	<p style="font-size:17px; font-weight:600;">Shiv Deshpande</p>
-	<p align="center">
-		<a href = "https://github.com/Shivd131"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36" alt="GitHub"/></a>
-		<a href = "https://www.linkedin.com/in/shiv-deshpande-951b9a23b">
-			<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36" alt="LinkedIn"/>
-		</a>
-	</p>
-</td>
+
 <td>
 	<p align="center">
 		<img src = "https://avatars.githubusercontent.com/arduR-O" width="150" height="150" alt="profilepic" style="border: 2px solid grey; width: 170px; height:170px">
