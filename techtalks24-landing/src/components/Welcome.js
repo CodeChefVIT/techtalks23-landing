@@ -8,14 +8,14 @@ import ttlogo from '../assets/ttlogo.svg'
 
 const Welcome = () => {
   const isMid = useMediaQuery("(max-width:1012px)");
-  console.log("isMid" + isMid);
+  // console.log("isMid" + isMid);
 
   return (
     <div className="h-[100vh] w-[100vw] cursor-default flex flex-col justify-center" id="welcome">
       {isMid && <TitleSVGMobile />}
       {!isMid && <TitleSVG/>}
       <div className="flex justify-center z-10">
-        <Link href={"/landing"}>
+        <Link href="https://gravitas.vit.ac.in/eventdetails?event=evt_90ba53bbfb134364ae49a782f5dc6fb4&image=https://i.imgur.com/DpnSSAf.jpg">
           <motion.button
             className="rounded-[4px] w-[200px] py-2 px-12 bg-orange sm:bg-orange text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
             whileTap={{ scale: 1 }}

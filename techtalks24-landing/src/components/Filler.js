@@ -1,11 +1,11 @@
 import { useAppContext } from "@/context/appContext";
 
-const FillerMask = () => {
+const FillerMask2 = () => {
     const {setIsHoveredOnSmall} = useAppContext();
   return (
-    <div className={`h-[70vh] bg-orange pl-36`}>
+    <div className={`h-[100vh] bg-black pl-36`}>
     </div>
   );
 };
 
-export default FillerMask;
+export default FillerMask2;

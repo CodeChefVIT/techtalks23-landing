@@ -31,6 +31,9 @@ import FillerMask from "@/components/FillerMask";
 import FillerMask2 from "@/components/FillerMask2";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import Head from "next/head";
+import mic from "../assets/mic.svg";
+import Filler from "../components/Filler";
+import RealTimeline from "@/components/RealTimeline";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,18 +64,20 @@ export default function Home() {
         <title>Tech Talks - 4.0</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
-          <FixedNav />
-      <main className="h-[980vh] w-[100vw] relative cursor-default overflow-x-hidden">
+      <FixedNav />
+      <main className="h-[900vh] sm:h-[820vh] md:h-[850vh] w-[100vw] relative cursor-default overflow-x-hidden ">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
           <Timeline />
+          <RealTimeline />
           {/* <Banner /> */}
-          <RegisterNow />
-          
+          {/* <RegisterNow /> */}
+
           <Countdown />
           <OtherEvents />
           <Faqs />
+
           <Socials />
         </div>
         {isNotMobile && (
@@ -90,12 +95,16 @@ export default function Home() {
             <AboutMask />
             {/* <FillerMask /> */}
             <FillerMask />
-            
+
+            <FillerMask2 />
+
+            <TimelineMask />
+
             <CountdownMask />
-            
-            <FillerMask2 />
-            <FillerMask2 />
-            <FillerMask2 />
+
+            {/* <FillerMask2 /> */}
+            {/* <FillerMask2 /> */}
+            {/* <FillerMask2 /> */}
           </motion.div>
         )}
       </main>

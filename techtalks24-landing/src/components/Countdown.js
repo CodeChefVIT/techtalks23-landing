@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 const Countdown = () => {
-  const timeOfEvent = new Date(2023, 8, 24, 7, 0);
+  const timeOfEvent = new Date(2023, 8, 20, 7, 0);
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0 });
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
@@ -37,7 +37,7 @@ const Countdown = () => {
     const interval = setInterval(calculateCountdown, 1000);
 
     return () => clearInterval(interval);
-  });
+  },[]);
 
   return (
     <div className="h-[90vh] md:h-[70vh] w-[80vw] relative">

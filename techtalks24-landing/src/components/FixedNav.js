@@ -6,6 +6,7 @@ import SocialHandles from "./NavbarComps/SocialHandles";
 import { motion } from "framer-motion";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import BurgerSVG from "./BurgerSVG";
+import mic from '../assets/mic.svg'
 import { Link } from "react-scroll";
 
 const FixedNav = () => {
@@ -54,7 +55,7 @@ const FixedNav = () => {
       <>
         {/* <div className="fixed flex justify-between p-12 md:p-6 border-2 border-orange "> */}
         <div className=" fixed h-16 w-auto cursor-pointer logo top-5 left-10 z-10">
-          <Image className="h-16 w-auto sm:h-12" src={cclogo} alt="CC Logo" />
+          <Image className="h-16 w-auto sm:h-12" src={mic} alt="CC Logo" />
         </div>
         <div className="fixed z-40 top-5 right-10">
           <Options />
